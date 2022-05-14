@@ -8,6 +8,7 @@ The architecture uses microservices and containerization.
 
 The pipeline uses [`GitHub Actions`](https://github.com/features/actions) that contains a pipeline with 7 main phases described below:
 
+
 ### Compile, Build and Test
 All commands of this phase are defined in `build.sh` file. 
 It checks if there are no compile/build errors.
